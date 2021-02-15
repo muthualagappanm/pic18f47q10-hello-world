@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.0.0",
         "name": "com.microchip.mcu8.mplabx.project.hello_world",
-        "version": "1.90.2",
+        "version": "1.91.2",
         "displayName": "Hello World",
         "projectName": "PIC18F47Q10-hello-world",
         "shortDescription": "A great starting point for getting your Curiosity nano board running",
@@ -52,11 +52,7 @@
                     "fileName": "./help.md",
                     "mimeType": "text/markdown"
                 }
-            },
-			"links": {
-            "openWithUrl": "https://ww1.microchip.com/downloads/en/Appnotes/01463A.pdf",
-            "downloadUrl": "https://ww1.microchip.com/downloads/en/AppNotes/01463A_source.zip"
-          }
+            }
         }
     }
 
