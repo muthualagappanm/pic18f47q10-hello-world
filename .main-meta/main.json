@@ -2,7 +2,7 @@
     "metaDataVersion": "1.0.0",
     "category": "com.microchip.ide.project",
     "content": {
-      "metaDataVersion": "1.0.0",
+      "metaDataVersion": "1.2.0",
       "name": "com.microchip.mcu8.mplabx.project.hello_world",
       "version": "0.9.0",
       "displayName": "Test Hello World",
