@@ -4,12 +4,12 @@
     "content": {
       "metaDataVersion": "1.2.0",
       "name": "com.microchip.mcu8.mplabx.project.hello_world",
-      "version": "0.9.0",
+      "version": "0.9.3",
       "displayName": "Test Hello World",
       "projectName": "PIC18F47Q10-hello-world",
       "shortDescription": "A great starting point for getting your Curiosity nano board running",
       "ide": {
-        "name": "Atmel Studio",
+        "name": "MPLABX",
         "semverRange": ">=5.30.0"
       },
       "compiler": {
@@ -57,12 +57,27 @@
                 {
                   "type": "OPEN_WITH_GITHUB",
                   "show": true,
-                  "name": "Open in Github"
+                  "name": "Github 1"
+                },
+                {
+                    "type": "OPEN_WITH_GITHUB",
+                    "show": false,
+                    "name": "Open in Github 2"
+                },
+                {
+                    "type": "OPEN_WITH_GITHUB",
+                    "show": true,
+                    "name": "Open in Github 3"
                 },
                 {
                   "type": "OPEN_WITH_XPRESS",
                   "tooltip": "Opens with Xpress App"
                 },
+                {
+                    "type": "OPEN_WITH_XPRESS",
+                    "tooltip": "Opens with Xpress App",
+                    "name": "Xpress 2"
+                  },
                 {
                   "type": "OPEN_WITH_URL",
                   "show": true,
@@ -78,11 +93,35 @@
                   "tooltip": "Downloads URL"
                 },
                 {
+                    "type": "DOWNLOAD_URL",
+                    "value": "http://ww1.microchip.com/downloads/en/AppNotes/01463A_source.zip",
+                    "name": "Download Help",
+                    "tooltip": "Downloads URL 2"
+                  },
+                  {
+                    "type": "DOWNLOAD_URL",
+                    "value": "http://ww1.microchip.com/downloads/en/AppNotes/01463A_source.zip",
+                    "name": "Download Help 3",
+                    "tooltip": "Downloads URL 3"
+                  },
+                {
                   "type": "DOWNLOAD_GITHUB",
                   "show": false,
                   "value": "http://ww1.microchip.com/downloads/en/Appnotes/01463A.pdf",
                   "tooltip": "Downloads Github"
-                }
+                },
+                {
+                    "type": "DOWNLOAD_GITHUB",
+                    "show": true,
+                    "value": "http://ww1.microchip.com/downloads/en/Appnotes/01463A.pdf",
+                    "tooltip": "Downloads Github"
+                  },
+                  {
+                    "type": "DOWNLOAD_XPRESS",
+                    "show": true,
+                    "value": "http://ww1.microchip.com/downloads/en/Appnotes/01463A.pdf",
+                    "tooltip": "Downloads XPRESS"
+                  }
               ]
             }
         }
