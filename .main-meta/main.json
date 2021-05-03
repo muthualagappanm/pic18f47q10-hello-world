@@ -53,14 +53,7 @@
             "category": "com.microchip.portal.linksRef",
             "content": {
               "metaDataVersion": "1.0.0",
-              "openWithPages": [
-                {
-                  "type": "OPEN_WITH_URL",
-                  "show": true,
-                  "value": "http://ww1.microchip.com/downloads/en/Appnotes/01463A.pdf",
-                  "name": "PDF"
-                }
-              ]
+              "openWithPages": []
             }
         }
       }
