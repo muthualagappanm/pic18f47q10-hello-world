@@ -49,39 +49,42 @@
           }
         },
         "links": {
-          "content": {
-            "openWithPages": [
-              {
-                "type": "OPEN_WITH_GITHUB",
-                "show": true,
-                "name": "Open in Github"
-              },
-              {
-                "type": "OPEN_WITH_XPRESS",
-                "tooltip": "Opens with Xpress App"
-              },
-              {
-                "type": "OPEN_WITH_URL",
-                "show": true,
-                "value": "http://ww1.microchip.com/downloads/en/Appnotes/01463A.pdf",
-                "name": "PDF"
-              }
-            ],
-            "downloads": [
-              {
-                "type": "DOWNLOAD_URL",
-                "value": "http://ww1.microchip.com/downloads/en/AppNotes/01463A_source.zip",
-                "name": "Download Help",
-                "tooltip": "Downloads URL"
-              },
-              {
-                "type": "DOWNLOAD_GITHUB",
-                "show": false,
-                "value": "http://ww1.microchip.com/downloads/en/Appnotes/01463A.pdf",
-                "tooltip": "Downloads Github"
-              }
-            ]
-          }
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.linksRef",
+            "content": {
+              "metaDataVersion": "1.0.0",
+              "openWithPages": [
+                {
+                  "type": "OPEN_WITH_GITHUB",
+                  "show": true,
+                  "name": "Open in Github"
+                },
+                {
+                  "type": "OPEN_WITH_XPRESS",
+                  "tooltip": "Opens with Xpress App"
+                },
+                {
+                  "type": "OPEN_WITH_URL",
+                  "show": true,
+                  "value": "http://ww1.microchip.com/downloads/en/Appnotes/01463A.pdf",
+                  "name": "PDF"
+                }
+              ],
+              "downloads": [
+                {
+                  "type": "DOWNLOAD_URL",
+                  "value": "http://ww1.microchip.com/downloads/en/AppNotes/01463A_source.zip",
+                  "name": "Download Help",
+                  "tooltip": "Downloads URL"
+                },
+                {
+                  "type": "DOWNLOAD_GITHUB",
+                  "show": false,
+                  "value": "http://ww1.microchip.com/downloads/en/Appnotes/01463A.pdf",
+                  "tooltip": "Downloads Github"
+                }
+              ]
+            }
         }
       }
     }
