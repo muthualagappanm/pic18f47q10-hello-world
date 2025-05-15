@@ -5,7 +5,7 @@
 ## Objective
 -----
 
->In this project, an LED (Light Emitting Diode) is turned on by the PIC18F47Q10 microcontroller >using the Curiosity nano (Q10) development board platform. This is a great starting point for getting your Curiosity nano board running.
+>In this project, an LED (Light Emitting Diode) is turned on by the PIC18F47Q10 microcontroller >using the Curiosity nano (Q10) development board platform. This is a great starting point for getting your Curiosity nano board running. editing
 
 ## Procedure
 -----
