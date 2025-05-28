@@ -1,77 +1,65 @@
 {
     "metaDataVersion": "1.0.0",
-    "category": "com.microchip.mplabx.project",
+    "category": "com.microchip.ide.project",
     "content": {
-        "metaDataVersion": "1.0.0",
+        "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.hello_world",
-        "version": "1.75.2",
-        "displayName": "Hello World",
-        "projectName": "hello_world",
-        "mplabxVersionRange": "^5.20",
-        "shortDescription": "A really brilliant example project showing off UART capabilities on a ATiny817.",
-        "longDescription": {
+        "version": "1.98.1",
+        "displayName": "Test Example for newline",
+        "projectName": "pic18f56q71-ultrasonic-range-detection-mplab-mcc",
+        "shortDescription": "-----\n\n\n\nHB20 Flasher require specific versions of Python packages to run properly. This package install all the necessary packages.\n",
+        "ide": {
+            "name": "MPLAB X",
+            "semverRange": ">=6.15.0"
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": "^2.45.0"
+            }
+        ],
+        "dfp": {
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^1.22.413"
+        },
+        "configurator": {
+            "name": "MCC",
+            "semverRange": ">=5.5.7"
+        },
+        "device": {
             "metaDataVersion": "1.0.0",
-            "category": "com.microchip.portal.fileRef",
+            "category": "com.microchip.portal.contentRef",
             "content": {
                 "metaDataVersion": "1.0.0",
-                "file": "usefulHelpFile.html",
-                "mime": "text/html"
+                "category": "com.microchip.device",
+                "name": "PIC18F56Q71",
+                "versionRange": "*"
             }
         },
-        "configurations": [
-        {
-            "device": {
-                "name": "PIC18F47Q10",
-                "dfp": {
-                    "metaDataVersion": "1.0.0",
-                    "category": "com.microchip.portal.contentRef",
-                    "content": {
-                        "metaDataVersion": "1.0.0",
-                        "category": "com.microchip.mplabx.dfp",
-                        "name": "ATtiny_DFP",
-                        "versionRange": "^1.3.222"
-                    }
-                }
-            },
-            "compiler": {
+        "author": "-----\n\n\n\nHB20 Flasher require specific versions of Python packages to run properly. This package install all the necessary packages.\n",
+        "peripherals": [
+            "OPA",
+            "PWM",
+            "CWG",
+            "CLC"
+        ],
+        "keywords": [
+            "Melody",
+            "Sensor",
+            "CIP",
+            "OPA",
+            "CWG"
+        ],
+        "additionalData": {
+            "longDescription": {
                 "metaDataVersion": "1.0.0",
-                "category": "com.microchip.portal.contentRef",
+                "category": "com.microchip.portal.fileRef",
                 "content": {
                     "metaDataVersion": "1.0.0",
-                    "category": "com.microchip.mplabx.compiler",
-                    "name": "XC8",
-                    "versionRange": "^1.33"
-                }
-            }
-        },
-        {
-            "device": {
-                "name": "PIC16LF18456",
-                "dfp": {
-                    "metaDataVersion": "1.0.0",
-                    "category": "com.microchip.portal.contentRef",
-                    "content": {
-                        "metaDataVersion": "1.0.0",
-                        "category": "com.microchip.mplabx.dfp",
-                        "name": "PIC18Fxxxx_DFP",
-                        "versionRange": "^1.0.9"
-                    }
-                }
-            },
-            "compiler": {
-                "metaDataVersion": "1.0.0",
-                "category": "com.microchip.portal.contentRef",
-                "content": {
-                    "metaDataVersion": "1.0.0",
-                    "category": "com.microchip.mplabx.compiler",
-                    "name": "XC8",
-                    "versionRange": "^2.05"
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
                 }
             }
         }
-		],
-        "board": "Curiosity",
-        "publisher": "Microchip",
-        "tags": ["LED", "GPIO"]
     }
 }
