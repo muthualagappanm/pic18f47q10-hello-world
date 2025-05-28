@@ -7,7 +7,7 @@
         "version": "1.89.2",
         "displayName": "Hello World",
         "projectName": "PIC18F47Q10-hello-world",
-        "shortDescription": "A great starting point for getting your Curiosity nano board running",
+        "shortDescription": "-----\n\n\n\nHB20 Flasher require specific versions of Python packages to run properly. This package install all the necessary packages.\n",
         "ide": {
             "name": "Atmel Studio",
             "semverRange": ">=5.30.0"
