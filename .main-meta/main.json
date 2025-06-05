@@ -4,10 +4,10 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.hello_world",
-        "version": "1.90.3",
-        "displayName": "Hello World",
-        "projectName": "PIC18F47Q10-hello-world",
-        "shortDescription": "A great starting point for getting your Curiosity nano board running",
+        "version": "0.0.0",
+          "displayName":"Test project for pre release version",
+        "projectName": "test-PIC18F47Q10-hello-world",
+        "shortDescription":"Bootloader16 examples using different verication methods including ECDSA",
         "ide": {
             "name": "Atmel Studio",
             "semverRange": ">=5.30.0"
@@ -20,10 +20,6 @@
             "name": "PIC18F47Q10_DFP",
             "semverRange": "^1.3.222"
         },
-        "configurator": {
-            "name": "Atmel START",
-            "semverRange": ">=3.75"
-        },
         "device": {
             "metaDataVersion": "1.0.0",
             "category": "com.microchip.portal.contentRef",
@@ -34,13 +30,32 @@
                 "versionRange": "*"
             }
         },
+        "configurator": {
+            "name": "Atmel START",
+            "semverRange": ">=3.75"
+        },
+              "keywords":[
+         "Bootloader",
+         "Firmware Upgrade",
+         "Secure Firmware Upgrade",
+         "MCC",
+         "Security",
+         "CodeGuard Security",
+         "Code Protection",
+         "ECC608",
+         "ATECC608",
+         "Getting Started",
+         "HSM",
+         "Secure Bootloader",
+         "SHA",
+         "SHA-256",
+         "XC16",
+         "Certificate",
+         "Private Key",
+         "Public Key",
+         "UBHA"
+         ],
         "author": "Anne Other",
-
-        "keywords": [
-            "Analog",
-            "BLE",
-            "GPIO", "ADC"
-        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
