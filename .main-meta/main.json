@@ -4,27 +4,25 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.hello_world",
-        "version": "1.98.1",
-        "displayName": "Test Example for newline",
-        "projectName": "pic18f56q71-ultrasonic-range-detection-mplab-mcc",
-        "shortDescription": "-----\n\n\n\nHB20 Flasher require specific versions of Python packages to run properly. This package install all the necessary packages.\n",
+        "version": "1.90.3",
+        "displayName": "Hello World",
+        "projectName": "PIC18F47Q10-hello-world",
+        "shortDescription": "A great starting point for getting your Curiosity nano board running",
         "ide": {
-            "name": "MPLAB X",
-            "semverRange": ">=6.15.0"
+            "name": "Atmel Studio",
+            "semverRange": ">=5.30.0"
         },
-        "compiler": [
-            {
-                "name": "XC8",
-                "semverRange": "^2.45.0"
-            }
-        ],
+        "compiler": {
+            "name": "XC8",
+            "semverRange": "^5.30"
+        },
         "dfp": {
-            "name": "PIC18F-Q_DFP",
-            "semverRange": "^1.22.413"
+            "name": "PIC18F47Q10_DFP",
+            "semverRange": "^1.3.222"
         },
         "configurator": {
-            "name": "MCC",
-            "semverRange": ">=5.5.7"
+            "name": "Atmel START",
+            "semverRange": ">=3.75"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,23 +30,16 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "PIC18F56Q71",
+                "name": "PIC18F47Q10",
                 "versionRange": "*"
             }
         },
-        "author": "-----\n\n\n\nHB20 Flasher require specific versions of Python packages to run properly. This package install all the necessary packages.\n",
-        "peripherals": [
-            "OPA",
-            "PWM",
-            "CWG",
-            "CLC"
-        ],
+        "author": "Anne Other",
+
         "keywords": [
-            "Melody",
-            "Sensor",
-            "CIP",
-            "OPA",
-            "CWG"
+            "Analog",
+            "BLE",
+            "GPIO", "ADC"
         ],
         "additionalData": {
             "longDescription": {
